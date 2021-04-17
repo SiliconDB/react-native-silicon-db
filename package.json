@@ -1,0 +1,44 @@
+{
+  "name": "react-native-silicon-db",
+  "title": "React Native SiliconDB",
+  "version": "1.0.0",
+  "description": "TODO",
+  "main": "src/index.js",
+  "files": [
+    "README.md",
+    "android",
+    "index.js",
+    "ios",
+    "react-native-silicon-db.podspec"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/github_account/react-native-silicon-db.git",
+    "baseUrl": "https://github.com/github_account/react-native-silicon-db"
+  },
+  "keywords": [
+    "react-native"
+  ],
+  "author": {
+    "name": "Your Name",
+    "email": "yourname@email.com"
+  },
+  "license": "MIT",
+  "licenseFilename": "LICENSE",
+  "readmeFilename": "README.md",
+  "peerDependencies": {
+    "react": ">=16.8.1",
+    "react-native": ">=0.60.0-rc.0 <1.0.x"
+  },
+  "devDependencies": {
+    "react": "^16.9.0",
+    "react-native": "^0.61.5"
+  },
+  "dependencies": {
+    "@react-native-async-storage/async-storage": "^1.15.2",
+    "lodash": "^4.17.21"
+  }
+}
