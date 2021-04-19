@@ -16,15 +16,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/github_account/react-native-silicon-db.git",
-    "baseUrl": "https://github.com/github_account/react-native-silicon-db"
+    "url": "git+https://github.com/SiliconDB/react-native-silicon-db.git",
+    "baseUrl": "https://github.com/SiliconDB/react-native-silicon-db"
   },
   "keywords": [
     "react-native"
   ],
   "author": {
-    "name": "Your Name",
-    "email": "yourname@email.com"
+    "name": "Florin Dumitru",
+    "email": "dumitru.florin@outlook.com"
   },
   "license": "MIT",
   "licenseFilename": "LICENSE",
