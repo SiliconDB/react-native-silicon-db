@@ -1,7 +1,7 @@
 {
   "name": "react-native-silicon-db",
   "title": "React Native SiliconDB",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "TODO",
   "main": "src/index.js",
   "scripts": {
@@ -24,7 +24,9 @@
   "readmeFilename": "README.md",
   "peerDependencies": {
     "react": "*",
-    "react-native": "*"
+    "react-native": "*",
+    "@react-native-async-storage/async-storage": "^1.15.2",
+    "lodash": "^4.17.21"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "^1.15.2",
