@@ -1,16 +1,9 @@
 {
   "name": "react-native-silicon-db",
   "title": "React Native SiliconDB",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "TODO",
   "main": "src/index.js",
-  "files": [
-    "README.md",
-    "android",
-    "index.js",
-    "ios",
-    "react-native-silicon-db.podspec"
-  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
