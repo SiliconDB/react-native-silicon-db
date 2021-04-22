@@ -1,7 +1,7 @@
 {
   "name": "react-native-silicon-db",
   "title": "React Native SiliconDB",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "TODO",
   "main": "./lib/index.js",
   "scripts": {

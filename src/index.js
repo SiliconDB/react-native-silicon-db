@@ -6,7 +6,7 @@ import { checkCollection } from './functions';
 // var RNFS = require('react-native-fs');
 
 
-class SiliconDB {
+export default class SiliconDB {
   constructor(config) {
     this.db = config.database;
     this.encryption = config.encryption || false;
@@ -31,4 +31,3 @@ class SiliconDB {
   };
 }
 
-module.exports = store
