@@ -1,6 +1,5 @@
 [![SiliconDB AsyncStorage on steroids](https://raw.githubusercontent.com/SiliconDB/react-native-silicon-db/master/silicon.jpg "SiliconDB AsyncStorage on steroids")](https://github.com/SiliconDB/react-native-silicon-db "SiliconDB AsyncStorage on steroids")
 
-Work in progress...
 
 ## Install
 
