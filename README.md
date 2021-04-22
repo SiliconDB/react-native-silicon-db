@@ -47,7 +47,7 @@ await Users.remove(user1_id);
 const usersSearch = await Users.find({ age: 30 });
 
 // Query Selectors
-let users = await Users.query(
+let usersQuery = await Users.query(
       {
         age: {
           $lte: 21,
