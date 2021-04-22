@@ -1,6 +1,5 @@
 /* eslint-disable eqeqeq */
 import AsyncStorage from '@react-native-async-storage/async-storage';
-
 import { DeviceEventEmitter } from 'react-native';
 import _ from 'lodash';
 import { generateID, isArray, isObject, queryMatch } from './functions';

@@ -1,33 +1,63 @@
 {
   "name": "react-native-silicon-db",
   "title": "React Native SiliconDB",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "TODO",
-  "main": "src/index.js",
+  "main": "./lib/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "babel src --watch --presets es2015,stage-0 --out-dir lib",
+    "build": "babel src --presets es2015,stage-0 --out-dir lib",
+    "test": "jest --verbose"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SiliconDB/react-native-silicon-db.git",
     "baseUrl": "https://github.com/SiliconDB/react-native-silicon-db"
   },
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/node_modules/babel-jest",
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "testFileExtensions": [
+      "js"
+    ],
+    "testPathDirs": [
+      "src"
+    ],
+    "unmockedModulePathPatterns": [
+      "promise",
+      "source-map"
+    ]
+  },
   "keywords": [
-    "react-native"
+    "react-component",
+    "react-native",
+    "ios",
+    "android",
+    "react",
+    "AsyncStorage",
+    "dataBase"
   ],
   "author": {
     "name": "Florin Dumitru",
     "email": "dumitru.florin@outlook.com"
   },
   "license": "MIT",
-  "licenseFilename": "LICENSE",
-  "readmeFilename": "README.md",
-  "peerDependencies": {
-    "react": "*",
-    "react-native": "*"
+  "bugs": {
+    "url": "https://github.com/SiliconDB/react-native-silicon-db/issues"
+  },
+  "homepage": "https://github.com/SiliconDB/react-native-silicon-db",
+  "devDependencies": {
+    "babel-cli": "^6.4.0",
+    "babel-jest": "^6.0.1",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "jest": "^0.1.40",
+    "jest-cli": "^0.8.2",
+    "react-native": "^0.18.0-rc"
   },
   "dependencies": {
-    "@react-native-community/async-storage": "^1.11.0",
-    "lodash": "^4.17.21"
+    "@react-native-async-storage/async-storage": "^1.15.1"
   }
 }
