@@ -9,7 +9,7 @@ or
 ```
 yarn add react-native-silicon-db
 ```
-Install peer dependecies:
+Install peer dependencies:
 ```
 yarn add @react-native-async-storage/async-storage
 ```
