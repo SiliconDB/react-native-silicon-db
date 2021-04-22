@@ -1,7 +1,7 @@
 {
   "name": "react-native-silicon-db",
   "title": "React Native SiliconDB",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "TODO",
   "main": "./lib/index.js",
   "scripts": {
@@ -57,11 +57,10 @@
     "jest-cli": "^0.8.2"
   },
   "peerDependencies": {
-    "@react-native-async-storage/async-storage": "^1.15.1",
-    "react-native-fs": "^2.17.0"
+    "@react-native-async-storage/async-storage": "*"
   },
   "dependencies": {
-    "@react-native-async-storage/async-storage": "^1.15.1",
+    "@react-native-async-storage/async-storage": "*",
     "lodash": "^4.17.21"
   }
 }
