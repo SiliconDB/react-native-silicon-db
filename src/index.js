@@ -12,7 +12,7 @@ export default class SiliconDB {
     this.encryption = config.encryption || false;
     this.data = [];
     // console.log("init", _.VERSION);
-    var path = RNFS.DocumentDirectoryPath + '/test.txt';
+    // var path = RNFS.DocumentDirectoryPath + '/test.txt';
 
     // write the file
 //     RNFS.writeFile(path, 'Lorem ipsum dolor sit amet', 'utf8')
