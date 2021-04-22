@@ -1,8 +1,8 @@
 {
   "name": "react-native-silicon-db",
   "title": "React Native Silicon DB",
-  "version": "1.0.13",
-  "description": "React native database on steroids",
+  "version": "1.0.14",
+  "description": "React native database, AsyncStorage on steroids",
   "main": "./lib/index.js",
   "scripts": {
     "watch": "babel src --watch --presets es2015,stage-0 --out-dir lib",
