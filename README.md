@@ -1,3 +1,4 @@
+# SiliconDB AsyncStorage on Steroids
 Work in progress...
 
 ## Install
@@ -8,9 +9,8 @@ npm i react-native-silicon-db --save
 or
 ```
 yarn add react-native-silicon-db
-
 ```
-Install peer dependecies:
+Install peer dependencies:
 ```
 yarn add @react-native-async-storage/async-storage
 ```
@@ -27,6 +27,7 @@ import SiliconDB from 'react-native-silicon-db';
 const db = new SiliconDB({database: 'demoName'});
 const Users = await db.collection('users');
 
+// listen Users changes
 Users.onChange((ev) => {
       console.log('ev'); // insert/update/delete data
 });
@@ -35,19 +36,19 @@ Users.onChange((ev) => {
 const user1_id = await Users.insert({name: 'Maria', age: 20});
 
 // return user object
-let getUser = await this.Users.findById(user1_id);
+let getUser = await Users.findById(user1_id);
 
 // update user
-await this.Users.update(user1_id, {age: 30});
+await Users.update(user1_id, {age: 30});
 
 // remove user
-await this.Users.remove(user1_id);
+await Users.remove(user1_id);
 
 // return array of users (objects) for age 30
 const usersSearch = await Users.find({ age: 30 });
 
 // Query Selectors
-let users = await Users.query(
+let usersQuery = await Users.query(
       {
         age: {
           $lte: 21,
