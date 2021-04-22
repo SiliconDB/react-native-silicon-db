@@ -8,7 +8,6 @@ npm i react-native-silicon-db --save
 or
 ```
 yarn add react-native-silicon-db
-
 ```
 Install peer dependecies:
 ```
@@ -27,6 +26,7 @@ import SiliconDB from 'react-native-silicon-db';
 const db = new SiliconDB({database: 'demoName'});
 const Users = await db.collection('users');
 
+// listen Users changes
 Users.onChange((ev) => {
       console.log('ev'); // insert/update/delete data
 });
