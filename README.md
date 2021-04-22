@@ -35,13 +35,13 @@ Users.onChange((ev) => {
 const user1_id = await Users.insert({name: 'Maria', age: 20});
 
 // return user object
-let getUser = await this.Users.findById(user1_id);
+let getUser = await Users.findById(user1_id);
 
 // update user
-await this.Users.update(user1_id, {age: 30});
+await Users.update(user1_id, {age: 30});
 
 // remove user
-await this.Users.remove(user1_id);
+await Users.remove(user1_id);
 
 // return array of users (objects) for age 30
 const usersSearch = await Users.find({ age: 30 });
