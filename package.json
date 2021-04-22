@@ -58,6 +58,7 @@
     "react-native": "^0.18.0-rc"
   },
   "dependencies": {
-    "@react-native-async-storage/async-storage": "^1.15.1"
+    "@react-native-async-storage/async-storage": "^1.15.1",
+    "lodash": "^4.17.21"
   }
 }
