@@ -55,9 +55,7 @@
     "babel-preset-stage-0": "^6.3.13",
     "jest": "^0.1.40",
     "jest-cli": "^0.8.2",
-    "react-native": "^0.18.0-rc",
-    "@react-native-async-storage/async-storage": "^1.15.1",
-    "lodash": "^4.17.21"
+    "react-native": "^0.18.0-rc"
   },
   "peerDependencies": {
     "@react-native-async-storage/async-storage": "^1.15.1"
