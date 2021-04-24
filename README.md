@@ -38,6 +38,9 @@ const user1_id = await Users.insert({name: 'Maria', age: 20});
 // return user object
 let getUser = await Users.findById(user1_id);
 
+// return all users
+let allUsers = Users.getAll();
+
 // update user
 await Users.update(user1_id, {age: 30});
 
